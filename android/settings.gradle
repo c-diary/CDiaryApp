@@ -1,0 +1,9 @@
+rootProject.name = 'CDiaryApp'
+include ':react-native-dp3t-sdk'
+project(':react-native-dp3t-sdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-dp3t-sdk/android')
+
+include ':c-diary-rn'
+project(':c-diary-rn').projectDir = new File(rootProject.projectDir, '../node_modules/c-diary-rn/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
