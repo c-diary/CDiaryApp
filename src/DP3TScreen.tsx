@@ -4,7 +4,7 @@ import {
     View,
 } from 'react-native';
 
-import { DP3T } from 'c-diary-rn';
+import { DP3T, DP3TStatus } from 'c-diary-rn';
 
 interface Props { }
 interface State {
@@ -31,6 +31,7 @@ class DP3TScreen extends React.Component<Props, State>{
                 backendAppId={backendAppId}
                 publicKeyBase64={publicKeyBase64}
             />
+            <DP3TStatus />
         </View>
         );
     }

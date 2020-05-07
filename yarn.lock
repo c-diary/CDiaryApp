@@ -1726,7 +1726,7 @@ bytes@3.0.0:
 
 "c-diary-rn@https://github.com/c-diary/c-diary-rn":
   version "0.1.0"
-  resolved "https://github.com/c-diary/c-diary-rn#ae3de103a0d77fb44f8c8557a853acd88491807d"
+  resolved "https://github.com/c-diary/c-diary-rn#d498d55879ce31215ce913600b58abf52c49ed79"
 
 cache-base@^1.0.1:
   version "1.0.1"
