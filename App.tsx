@@ -14,6 +14,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import DP3TScreen from './src/DP3TScreen';
 import DiaryScreen from './src/DiaryScreen';
+import SettingsScreen from './src/SettingsScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -38,6 +39,7 @@ class App extends React.Component<Props, State>{
           <Tab.Navigator>
             <Tab.Screen name="Diary" component={DiaryScreen} />
             <Tab.Screen name="DP3T" component={DP3TScreen} />
+            <Tab.Screen name="Settings" component={SettingsScreen} />
           </Tab.Navigator>
         </NavigationContainer>
       </>
